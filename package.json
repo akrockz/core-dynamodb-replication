@@ -1,0 +1,25 @@
+{
+  "name": "core-dynamodb-replication",
+  "version": "2.0.17",
+  "description": "Copy Dynamodb table to another in the same or different zone , It is 100% safe , and speed depends on your destination table user defined write provisioned throughput",
+  "keywords": [
+    "dynamodb",
+    "aws-dynamodb",
+    "AWS",
+    "copy-tables"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "aws-sdk": "^2.56.0",
+    "readline": "^1.3.0"
+  }
+}
